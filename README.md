@@ -5,7 +5,8 @@ Notes for PHP
 1. **Class Names:**
    - Use PascalCase for class names.
    - Use Abstract word for abstract classes. `class AbstractClass`
-   - Use Interface work for interfaces. `interface MyInterface`
+   - Use Interface word for interfaces. `interface MyInterface`
+   - Use Exception word for exception classes `class MyException`
      - Example: `class MyClass`
 
 3. **Method Names:**
