@@ -23,12 +23,14 @@ Notes for PHP
      - Example: `$myVariable`
       
 6. **File Names:**
-   - Use lowercase with underscores for file names.
+   - Use PascalCase with "-" as separator.
      - Example: `my_file.php`
       
-6. **Package Names:**
-   - Use lowercase with underscores - as separator.
+7. **Package Names:**
+   - Use PascalCase with "-" as separator.
      - Example: `my-package`
+    
+###### [Naming Conventions Guide](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
        
 # What is PHP(Hypertext Preprocessor)
 - Created by Rasmus Lerdorf in 1994
