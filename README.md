@@ -4,31 +4,33 @@ Notes for PHP
 # Naming Conventions
 1. **Class Names:**
    - Use PascalCase for class names.
+   - Use Abstract word for abstract classes. `class AbstractClass`
+   - Use Interface work for interfaces. `interface MyInterface`
      - Example: `class MyClass`
 
-2. **Method Names:**
+3. **Method Names:**
    - Use camelCase for method names.
      - Example: `public function myMethod()`
 
-3. **Property Names:**
+4. **Property Names:**
    - Use camelCase for property names.
      - Example: `private $myProperty`
 
-4. **Constant Names:**
+5. **Constant Names:**
    - Use uppercase letters with underscores for constant names.
      - Example: `const MY_CONSTANT = "constantVariable"`
 
-5. **Variable Names:**
+6. **Variable Names:**
    - Use camelCase for variable names.
      - Example: `$myVariable`
       
-6. **File Names:**
+7. **File Names:**
    - Use PascalCase with "-" as separator.
-     - Example: `my_file.php`
+     - Example: `MyFile.php`
       
-7. **Package Names:**
+8. **Package Names:**
    - Use PascalCase with "-" as separator.
-     - Example: `my-package`
+     - Example: `MyPackage`
     
 ###### [Naming Conventions Guide](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
        
