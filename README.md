@@ -47,3 +47,7 @@ Notes for PHP
 11. **`array_unique`**: Removes duplicate values from an array.
 12. **`array_values`**: Returns all the values of an array.
 ###### Note: associative array = HashMap
+
+# isset() and empty() function
+- isset() function returns true if supplied variable is declared and not null.
+- empty() function returns true if supplied variable is not declared, null, false, and "".
