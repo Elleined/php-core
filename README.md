@@ -32,3 +32,17 @@ Notes for PHP
      
 # What is PHP(Hypertext Preprocessor)
 - Created by Rasmus Lerdorf in 1994
+
+# Array Functions
+1. **`array_column`**: Returns the values from a single column in the input array.
+2. **`array_filter`**: Filters elements of an array using a callback function.
+3. **`array_key_exists`**: Checks if a specific key exists in an array.
+4. **`array_keys`**: Returns all the keys or a subset of the keys of an array.
+5. **`array_map`**: Applies a callback to each element of an array.
+6. **`array_merge`**: Merges two or more arrays.
+7. **`array_pop`**: Pops the element off the end of an array.
+8. **`array_push`**: Pushes one or more elements onto the end of an array.
+9. **`array_reverse`**: Returns an array with elements in the reverse order.
+10. **`array_sum`**: Calculates the sum of values in an array.
+11. **`array_unique`**: Removes duplicate values from an array.
+12. **`array_values`**: Returns all the values of an array.
