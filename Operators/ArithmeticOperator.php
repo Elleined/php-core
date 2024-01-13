@@ -19,6 +19,14 @@ echo "===== DIVISION OPERATOR ===== <br>";
 $quotient = divide(1, 3);
 echo "$quotient <hr>";
 
+echo "===== MODULO OPERATOR ===== <br>";
+$remainder = modulo(1, 3);
+echo "$remainder <hr>";
+
+echo "===== EXPONENT OPERATOR ===== <br>";
+$exponent = exponentiation(1, 3);
+echo "$exponent <hr>";
+
 function add($num1, $num2) {
     return $num1 + $num2;
 }
