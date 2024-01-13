@@ -5,6 +5,7 @@ Notes for PHP
 - Download php [PHP Downloads](https://www.php.net/downloads.php)
 - Click windows download with latest LTS version.
 - Download then Extract the thread safe zip file.
+- Add the php x.x.x folder directory in your environment variables.
 - In VS Code download [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver).
 - In VS Code download [Live Server](
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
