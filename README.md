@@ -16,20 +16,20 @@ Notes for PHP
 
 4. **Constant Names:**
    - Use uppercase letters with underscores for constant names.
-     - Example: `const myConstant = "constantVariable"`
+     - Example: `const MY_CONSTANT = "constantVariable"`
 
-5. **Function Names:**
-   - Use snake_case for function names.
-     - Example: `function my_function()`
-
-6. **Variable Names:**
+5. **Variable Names:**
    - Use camelCase for variable names.
      - Example: `$myVariable`
       
-7. **File Names:**
+6. **File Names:**
    - Use lowercase with underscores for file names.
      - Example: `my_file.php`
-     
+      
+6. **Package Names:**
+   - Use lowercase with underscores - as separator.
+     - Example: `my-package`
+       
 # What is PHP(Hypertext Preprocessor)
 - Created by Rasmus Lerdorf in 1994
 
