@@ -46,3 +46,4 @@ Notes for PHP
 10. **`array_sum`**: Calculates the sum of values in an array.
 11. **`array_unique`**: Removes duplicate values from an array.
 12. **`array_values`**: Returns all the values of an array.
+###### Note: associative array = HashMap
