@@ -1,6 +1,13 @@
 # php-notes
 Notes for PHP
 
+# Install PHP without XAMPP
+- Download php [PHP Downloads](https://www.php.net/downloads.php)
+- Click windows download with latest LTS version.
+- Download then Extract the thread safe zip file.
+- In VS Code download PHP Server extension.
+- In VS Code download Live Server.
+- In Chrome Download the [Live Server Reload](https://chrome.google.com/webstore/detail/live-server-web-extension/fiegdmejfepffgpnejdinekhfieaogmj). 
 # Naming Conventions
 1. **Class Names:**
    - Use PascalCase for class names.
