@@ -1,4 +1,6 @@
 <?
+require "./Operations.php";
+
 echo "=====================<br>";
 echo "ARITHMETIC OPERATORS <br>";
 echo "=====================<br> <hr>";
@@ -26,28 +28,4 @@ echo "$remainder <hr>";
 echo "===== EXPONENT OPERATOR ===== <br>";
 $exponent = exponentiation(1, 3);
 echo "$exponent <hr>";
-
-function add($num1, $num2) {
-    return $num1 + $num2;
-}
-
-function subtract($num1, $num2) {
-    return $num1 - $num2;
-}
-
-function multiply($num1, $num2) {
-    return $num1 * $num2;
-}
-
-function divide($num1, $num2) {
-    return $num1 / $num2;
-}
-
-function modulo($num1, $num2) {
-    return $num1 % $num2;
-}
-
-function exponentiation($num1, $num2) {
-    return $num1 ** $num2;
-}
 ?>
