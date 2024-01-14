@@ -34,4 +34,5 @@ echo highlight_string('<?php ' . PHP_EOL . 'function functionName(parameter1Data
     // Function behavior code
     return datatype1 | datatype2;
 }' . PHP_EOL . '?>', true);
+
 ?>
