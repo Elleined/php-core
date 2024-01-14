@@ -3,7 +3,6 @@
     $password = isset($_GET["password"]) ? $_GET["password"] : "";
     ?>
 
-
     <!DOCTYPE html>
     <html lang="en">
     <head>

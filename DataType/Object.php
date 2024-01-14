@@ -1,23 +1,8 @@
 <?
-    echo "===== OBJECT ===== <br>";
-    class MyClass {
-        private $name;
-        private $age;
+require "../Model/PersonClass.php";
 
-        public function __construct(String $name, int $age) {
-            $this -> name = $name;
-            $this -> age = $age;
-        }
-
-        public function getName(): String {
-            return $this -> name;
-        }
-
-        public function getAge(): int {
-            return $this -> age;
-        }
-    }
-    $myObject = new MyClass("Denielle", 21);
-    echo "My object name is: {$myObject -> getName()} <br>";
-    echo "My object age is: {$myObject -> getAge()} <br> <hr>";
+echo "===== OBJECT ===== <br>";
+$myObject = new Person("Denielle", 21);
+echo "My object name is: {$myObject->getName()} <br>";
+echo "My object age is: {$myObject->getAge()} <br> <hr>";
 ?>
