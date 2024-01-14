@@ -51,3 +51,10 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 # isset() and empty() function
 - isset() function returns true if supplied variable is declared and not null.
 - empty() function returns true if supplied variable is not declared, null, false, and "".
+
+# Difference of ->, =>, and ::
+- -> is equal to . operator in java to access object method and properties.
+- => is used for defining lambda expression.
+- :: is should only be used when accessing static property and method of object.
+
+###### Conclusion: use -> for object method and property and use :: for object static method and property.
