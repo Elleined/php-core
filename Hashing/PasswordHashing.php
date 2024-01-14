@@ -3,7 +3,7 @@
 $password = "myPassword";
 
 // Typically the password hash saved in database
-$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+$hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 echo $hashedPassword . "<br>";
 
 // Extra Step: to get the password hash when user is trying to log in get his password via his email then proceed to next line

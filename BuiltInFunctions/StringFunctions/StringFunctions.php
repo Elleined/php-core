@@ -1,10 +1,12 @@
-<a href="https://www.php.net/manual/en/ref.strings.php">String Functions PHP Documentation</a>
+<a target="_blank" href="https://www.php.net/manual/en/ref.strings.php">String Functions PHP Documentation</a><br><hr>
 <?
+const name = "Denielle";
+
 require "./Contains.php";
 require "./EndsWith.php";
-require "./Implode.php";
+require "./Joiner.php";
+require "./LoweFirstLetter.php";
 require "./Lower.php";
-require "./MoneyFormat.php";
 require "./RemoveWhiteSpaces.php";
 require "./ReplaceAllOccurances.php";
 require "./Reverse.php";
