@@ -1,3 +1,4 @@
+<a href="https://www.php.net/manual/en/function.usort.php">Array functions PHP Documentation</a>
 <?
 require "../../Model/PersonClass.php";
 require "./PersonPrinter.php";
@@ -7,7 +8,7 @@ $ruben = new Person("Ruben", 19);
 $kiyan = new Person("Kiyan", 25);
 
 $persons = array($kiyan, $denielle, $ruben);
-echo "===== Original person array ===== <br>";
+echo "<br>===== Original person array ===== <br>";
 display($persons);
 echo "<hr>";
 
@@ -23,4 +24,5 @@ require "./Push.php";
 require "./Shuffle.php";
 require "./Sort.php";
 require "./UserDefinedSort.php";
+
 ?>
