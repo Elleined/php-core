@@ -6,7 +6,7 @@ $denielle = new Person("Denielle", 21);
 $ruben = new Person("Ruben", 19);
 $kiyan = new Person("Kiyan", 25);
 
-$persons = array($denielle, $ruben, $kiyan);
+$persons = array($kiyan, $denielle, $ruben);
 echo "===== Original person array ===== <br>";
 display($persons);
 echo "<hr>";
@@ -22,4 +22,5 @@ require "./Pop.php";
 require "./Push.php";
 require "./Shuffle.php";
 require "./Sort.php";
+require "./UserDefinedSort.php";
 ?>
