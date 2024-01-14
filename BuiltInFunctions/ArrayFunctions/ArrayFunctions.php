@@ -11,20 +11,15 @@ echo "===== Original person array ===== <br>";
 display($persons);
 echo "<hr>";
 
-require "./Map.php";
+require "./Count.php";
+require "./Distinct.php";
+require "./Fill.php";
 require "./FIlter.php";
-
-// fill
-// shuffle
-// replace
-// count
-// in_array
-// sort
-// array_merge: Merges two or more arrays.
-// array_pop: Pops the element off the end of an array.
-// array_push: Pushes one or more elements onto the end of an array.
-// array_reverse: Returns an array with elements in the reverse order.
-// array_sum: Calculates the sum of values in an array.
-// array_unique: Removes duplicate values from an array.
-
+require "./IsExists.php";
+require "./Map.php";
+require "./Merge.php";
+require "./Pop.php";
+require "./Push.php";
+require "./Shuffle.php";
+require "./Sort.php";
 ?>
