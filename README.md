@@ -48,17 +48,6 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 # What is PHP(Hypertext Preprocessor)
 - Created by Rasmus Lerdorf in 1994
 
-# Array Functions
-2. **`array_filter`**: Filters elements of an array using a callback function.
-5. **`array_map`**: Applies a callback to each element of an array.
-6. **`array_merge`**: Merges two or more arrays.
-7. **`array_pop`**: Pops the element off the end of an array.
-8. **`array_push`**: Pushes one or more elements onto the end of an array.
-9. **`array_reverse`**: Returns an array with elements in the reverse order.
-10. **`array_sum`**: Calculates the sum of values in an array.
-11. **`array_unique`**: Removes duplicate values from an array.
-###### Note: associative array = HashMap
-
 # isset() and empty() function
 - isset() function returns true if supplied variable is declared and not null.
 - empty() function returns true if supplied variable is not declared, null, false, and "".
