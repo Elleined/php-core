@@ -1,8 +1,5 @@
 <a href="https://www.php.net/manual/en/ref.strings.php">String Functions PHP Documentation</a>
 <?
-require "./Encryption/Crypt.php";
-require "./Encryption/MD5.php";
-require "./Encryption/Sha1.php";
 require "./Contains.php";
 require "./EndsWith.php";
 require "./Implode.php";
