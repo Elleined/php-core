@@ -28,7 +28,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
      - Example: `private $myProperty`
 
 5. **Constant Names:**
-   - Use uppercase letters with underscores for constant names.
+   - Use uppercase letters with '_' underscores as separator.
      - Example: `const MY_CONSTANT = "constantVariable"`
 
 6. **Variable Names:**
@@ -36,11 +36,11 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
      - Example: `$myVariable`
       
 7. **File Names:**
-   - Use PascalCase with "-" as separator.
+   - Use PascalCase.
      - Example: `MyFile.php`
       
 8. **Package Names:**
-   - Use PascalCase with "-" as separator.
+   - Use PascalCase.
      - Example: `MyPackage`
     
 ###### [Naming Conventions Guide](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
