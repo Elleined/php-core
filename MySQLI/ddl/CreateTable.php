@@ -1,6 +1,6 @@
 <?
 $query = <<<ANYTHING
-CREATE TABLE IF NOT EXISTS my_first_table(
+CREATE TABLE IF NOT EXISTS my_first_table (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     age INT NOT NULL
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS my_first_table(
 ANYTHING; 
 
 if (mysqli_query($conn, $query)) {
-    echo "Table created successfully!";
+    echo "Table created successfully! <br>";
     return;
 }
 
