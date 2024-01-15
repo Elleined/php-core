@@ -9,9 +9,9 @@ ANYTHING;
 
 if (mysqli_query($conn, $query)) {
     echo "Table created successfully! <br>";
+    echo "<hr>";
     return;
 }
 
 mysqli_error($conn);
-
 ?>
