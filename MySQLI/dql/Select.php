@@ -1,8 +1,13 @@
 <?
-function read($conn): void {
+function read(mysqli $conn): void {
     $query = "SELECT * FROM my_first_table";
     echo "Please wait! Reading all records... <br>";
     $resultSet = mysqli_query($conn, $query);
+    if ($resultSet -> num_rows <= 0) {
+        echo "No records found! <br>";
+        echo "Reading all records success!";
+        return;
+    }
     while($row = mysqli_fetch_assoc($resultSet)) {
         $id = $row["id"];
         $name = $row["name"];
