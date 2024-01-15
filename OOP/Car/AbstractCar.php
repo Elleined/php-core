@@ -1,10 +1,10 @@
 <?
 abstract class AbstractCar implements Drivable {
-    private String $model;
+    private CarModel $model;
     private String $color;
     private int | float $speed;
 
-    public function __construct(String $model, String $color, int | float $speed) {
+    public function __construct(CarModel $model, String $color, int | float $speed) {
         $this->model = $model;
         $this->color = $color;
         $this->speed = $speed;
@@ -19,11 +19,11 @@ abstract class AbstractCar implements Drivable {
         echo "Going to $place ...\n";
     }
     
-    public final function setModel(String $model): void {
+    public final function setModel(CarModel $model): void {
         $this -> model = $model;
     }
     
-    public final function getModel(): String {
+    public final function getModel(): CarModel {
         return $this -> model;
     }
 
@@ -44,7 +44,7 @@ abstract class AbstractCar implements Drivable {
     }
 
     public function __toString(): String {
-        return "Model: " . $this -> model . "\nColor: " . $this -> color . "\nSpeed: " . $this -> speed . "\n";
+        return "Model: " . $this -> model -> getName() . "\nColor: " . $this -> color . "\nSpeed: " . $this -> speed . "\n";
     }
 }
 ?>

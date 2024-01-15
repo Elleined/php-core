@@ -2,7 +2,7 @@
 class ElectricCar extends AbstractCar {
     private int $batteryPercentage;
 
-    public function __construct(string $model, string $color, $speed, int $batteryPercentage) {
+    public function __construct(CarModel $model, string $color, $speed, int $batteryPercentage) {
         parent::__construct($model, $color, $speed);
         $this -> batteryPercentage = $batteryPercentage;
     }
@@ -39,7 +39,7 @@ class ElectricCar extends AbstractCar {
      * @override
      */
     public function __toString(): String {
-        return "Model: " . parent::getModel() . "<br>Color: " . parent::getColor() . "<br>Speed: " . parent::getSpeed() . "<br>Battery Percentage: " . $this -> batteryPercentage . "<br>";
+        return "Model: " . parent::getModel() -> getName() . "<br>Color: " . parent::getColor() . "<br>Speed: " . parent::getSpeed() . "<br>Battery Percentage: " . $this -> batteryPercentage . "<br>";
     }
 }
 ?>
