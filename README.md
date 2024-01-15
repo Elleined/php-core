@@ -58,3 +58,6 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 - :: is should only be used when accessing static property and method of object.
 
 ###### Conclusion: use -> for object method and property and use :: for object static method and property.
+
+# Troubleshooting
+### [Undefined mysql_connect function](https://www.youtube.com/watch?v=h3TXzgsMVQ4)
