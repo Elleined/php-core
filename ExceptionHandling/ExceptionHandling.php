@@ -14,7 +14,7 @@ function tryCatch(): void {
     try {
         echo divide(89, 0);
     } catch(DivisionByZeroError $e) {
-        echo "Error message in tryCatch: " . $e -> getMessage() . "<br>";
+        echo "Catching DivisionByZeroError: " . $e -> getMessage() . "<br>";
     }
     echo "// rest of the code will be executed. <br>";
 }
@@ -24,7 +24,7 @@ function tryCatchFinally() {
     try {
         echo divide(89, 0);
     } catch(DivisionByZeroError $e) {
-        echo "Error message in tryCatchFinally: " . $e -> getMessage() . "<br>";
+        echo "Catching DivisionByZeroError: " . $e -> getMessage() . "<br>";
     } finally {
         echo "Finally block executed. <br>";
     }
