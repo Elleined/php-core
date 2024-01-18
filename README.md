@@ -42,7 +42,10 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 8. **Package Names:**
    - Use PascalCase.
      - Example: `MyPackage`
-    
+
+9. **Namespace**
+   - Use PascalCase and should match with folder structure.
+     - Example: `MyPackage/MyClass.php`
 ###### [Naming Conventions Guide](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
        
 # What is PHP(Hypertext Preprocessor)
@@ -60,5 +63,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 - require_once and include_once keyword is used to import a code only once in entire php file.
 
+# What is namespace
+- Think of namespace as virtual package that you can use to avoid naming collision between files with same name.
 # Troubleshooting
 ### [Undefined mysql_connect function](https://www.youtube.com/watch?v=h3TXzgsMVQ4)
