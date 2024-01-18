@@ -45,7 +45,8 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 9. **Namespace**
    - Use PascalCase and should match with folder structure.
-     - Example: `MyPackage/MyClass.php`
+     - Example: `MyPackage/MyClass`
+     
 ###### [Naming Conventions Guide](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
        
 # What is PHP(Hypertext Preprocessor)
