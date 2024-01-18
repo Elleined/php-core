@@ -67,6 +67,8 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 # What is namespace
 - Think of namespace as virtual package that you can use to avoid naming collision between files with same name.
 
+###### It is recommended to use / in all the global function, class, and fields to explicitly tell to php that we are going to use the global not the local function with same name.
+
 # PHP file declaration order
 ```
 <?php
