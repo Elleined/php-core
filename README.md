@@ -66,5 +66,21 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 # What is namespace
 - Think of namespace as virtual package that you can use to avoid naming collision between files with same name.
+
+# PHP file declaration order
+```
+<?php
+
+// require/ include
+
+// declare
+
+// namespace
+
+// use
+
+// code
+ ?>
+```
 # Troubleshooting
 ### [Undefined mysql_connect function](https://www.youtube.com/watch?v=h3TXzgsMVQ4)
