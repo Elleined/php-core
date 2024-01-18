@@ -48,16 +48,17 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 # What is PHP(Hypertext Preprocessor)
 - Created by Rasmus Lerdorf in 1994
 
-# isset() and empty() function
-- isset() function returns true if supplied variable is declared and not null.
-- empty() function returns true if supplied variable is not declared, null, false, and "".
-
 # Difference of ->, =>, and ::
 - -> is equal to . operator in java to access object method and properties.
 - => is used for defining lambda expression.
 - :: is should only be used when accessing static property and method of object.
 
 ###### Conclusion: use -> for object method and property and use :: for object static method and property.
+
+# Difference of require, require_once, include, and include_once
+- require and include keyword is used to import a code multiple times independently in entire php file.
+
+- require_once and include_once keyword is used to import a code only once in entire php file.
 
 # Troubleshooting
 ### [Undefined mysql_connect function](https://www.youtube.com/watch?v=h3TXzgsMVQ4)
