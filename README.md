@@ -69,6 +69,10 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ###### It is recommended to use / in all the global function, class, and fields to explicitly tell to php that we are going to use the global not the local function with same name.
 
+# Traits
+- Traits acts like a default method in interface in java where you have a method that have same behavior throughout the implementing classes however in php you would use traits.
+
+
 # PHP file declaration order
 ```
 <?php
