@@ -1,10 +1,14 @@
 <?
 require_once "./Car/DrivableInterface.php";
-require_once "./Traits/GotoTrait.php";
 require_once "./Car/AbstractCar.php";
+require_once "./Car/Trait/GotoTrait.php";
+require_once "./Car/Enumeration/CarModel.php";
 require_once "./Car/ElectricCar.php";
-require_once "./Enumerations/CarModel.php";
 require_once "./Car/ManualCar.php";
+
+use OOP\Car\ElectricCar;
+use OOP\Car\ManualCar;
+use OOP\Car\Enumeration\CarModel;
 
 $electricCar = new ElectricCar(CarModel::BMW, "Black", 1000, 90);
 echo $electricCar -> __toString();

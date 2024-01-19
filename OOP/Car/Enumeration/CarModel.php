@@ -1,4 +1,6 @@
 <?
+namespace OOP\Car\Enumeration;
+
 enum CarModel {
     case BMW;
     case HONDA;

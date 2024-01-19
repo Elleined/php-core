@@ -1,5 +1,9 @@
 <?
-abstract class AbstractCar implements Drivable {
+namespace OOP\Car;
+
+use OOP\Car\Enumeration\CarModel;
+
+abstract class AbstractCar implements DrivableInterface {
     private CarModel $model;
     private String $color;
     private int | float $speed;

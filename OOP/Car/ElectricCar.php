@@ -1,4 +1,9 @@
 <?
+namespace OOP\Car;
+
+use OOP\Car\Trait\GotoTrait;
+use OOP\Car\Enumeration\CarModel;
+
 class ElectricCar extends AbstractCar {
     use GotoTrait;
 
