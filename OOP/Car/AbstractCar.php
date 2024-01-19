@@ -15,9 +15,6 @@ abstract class AbstractCar implements Drivable {
      */
     public abstract function drive();
 
-    public function goTo(String $place): void {
-        echo "Going to $place ...\n";
-    }
     
     public final function setModel(CarModel $model): void {
         $this -> model = $model;

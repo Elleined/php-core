@@ -1,5 +1,7 @@
 <?
 class ElectricCar extends AbstractCar {
+    use GotoTrait;
+
     private int $batteryPercentage;
 
     public function __construct(CarModel $model, string $color, $speed, int $batteryPercentage) {
@@ -22,7 +24,7 @@ class ElectricCar extends AbstractCar {
     }
 
     public final function charge(): void {
-        $this -> setBatteryPercentage(99);
+        $this -> batteryPercentage += 1;
         echo "Electric car battery percentage is: " . $this -> getBatteryPercentage() . " <br>";
     }
 
