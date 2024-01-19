@@ -42,15 +42,15 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 8. **Package Names:**
    - Use PascalCase.
      - Example: `MyPackage`
-    
+
+9. **Namespace**
+   - Use PascalCase and should match with folder structure.
+     - Example: `MyPackage/MyClass`
+     
 ###### [Naming Conventions Guide](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
        
 # What is PHP(Hypertext Preprocessor)
 - Created by Rasmus Lerdorf in 1994
-
-# isset() and empty() function
-- isset() function returns true if supplied variable is declared and not null.
-- empty() function returns true if supplied variable is not declared, null, false, and "".
 
 # Difference of ->, =>, and ::
 - -> is equal to . operator in java to access object method and properties.
@@ -59,5 +59,34 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ###### Conclusion: use -> for object method and property and use :: for object static method and property.
 
+# Difference of require, require_once, include, and include_once
+- require and include keyword is used to import a code multiple times independently in entire php file.
+
+- require_once and include_once keyword is used to import a code only once in entire php file.
+
+# What is namespace
+- Think of namespace as virtual package that you can use to avoid naming collision between files with same name.
+
+###### It is recommended to use / in all the global function, class, and fields to explicitly tell to php that we are going to use the global not the local function with same name.
+
+# Traits
+- Traits acts like a default method in interface in java where you have a method that have same behavior throughout the implementing classes however in php you would use traits.
+
+
+# PHP file declaration order
+```
+<?php
+
+// require/ include
+
+// declare
+
+// namespace
+
+// use
+
+// code
+ ?>
+```
 # Troubleshooting
 ### [Undefined mysql_connect function](https://www.youtube.com/watch?v=h3TXzgsMVQ4)
