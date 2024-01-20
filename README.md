@@ -67,21 +67,29 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 # What is namespace
 - Think of namespace as virtual package that you can use to avoid naming collision between files with same name.
 
+###### When using namespace ensure that order or require and include statements are correct before accessing it.
 ###### It is recommended to use / in all the global function, class, and fields to explicitly tell to php that we are going to use the global not the local function with same name.
 
 # Traits
 - Traits acts like a default method in interface in java where you have a method that have same behavior throughout the implementing classes however in php you would use traits.
 
+# What is superglobals
+- It is accesible anywhere throughout our whole project regardless of the scope.
+##### $_POST
+##### $_GET
+##### $_SESSION
+##### $_COOKIE
+##### $_ENV
+##### $_FILES
 
 # PHP file declaration order
 ```
 <?php
-
-// require/ include
-
-// declare
+declare(strict_types=1); // Used to enforce strict typing in current php file
 
 // namespace
+
+// require/ include
 
 // use
 
