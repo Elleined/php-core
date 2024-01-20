@@ -1,6 +1,10 @@
     <? 
     $email = isset($_POST["email"]) ? $_POST["email"] : "";
     $password = isset($_POST["password"]) ? $_POST["password"] : "";
+
+    if (isset($_SESSION["myCustomKey"])) {
+        echo "Accessing the session key value in different file. this file: " . $_SESSION["myCustomKey"];
+    }
     ?>
 
 

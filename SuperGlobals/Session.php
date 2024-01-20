@@ -20,8 +20,8 @@
     <h2>!!!Note: calling session_start() method is a must! to properly use the php session.</h2>
     <h2>Setting the key value pair in $_SESSION["myCustomKey"] = "myCustomValue" <?php  $_SESSION["myCustomKey"] = "MyCustomerValue"; ?> </h2>
     <h2>Getting the value of our prevoiusly set key value pair using $_SESSION["myCustomKey"] value fetched: <?php echo $_SESSION["myCustomKey"] ?> </h2>
-    <h2>Unsetting/ Removing specific key value pair in session session_unset() <?php  session_unset() ?></h2>
-    <h2>Getting the value of our prevoiusly set key value pair using $_SESSION["myCustomKey"] value fetched: <?php echo $_SESSION["myCustomKey"] ?> </h2>
+    <!-- <h2>Unsetting/ Removing specific key value pair using session session_unset() </h2> -->
+    <hr>
 </body>
 
 </html>
