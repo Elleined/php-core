@@ -73,15 +73,6 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 # Traits
 - Traits acts like a default method in interface in java where you have a method that have same behavior throughout the implementing classes however in php you would use traits.
 
-# What is superglobals
-- It is accesible anywhere throughout our whole project regardless of the scope.
-##### $_POST
-##### $_GET
-##### $_SESSION
-##### $_COOKIE
-##### $_ENV
-##### $_FILES
-
 # PHP file declaration order
 ```
 <?php
