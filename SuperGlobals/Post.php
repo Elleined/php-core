@@ -12,6 +12,9 @@
         <title>Document</title>
     </head>
     <body>  
+        <p>======</p>
+        <h3>POST</h3>
+        <p>======</p>
         <h1>Remember that post method is more secure and the data you can pass is not limited because it does not show the data in address bar unlike get method</h1>
         <form action="./Post.php" method="post">
             <input type="email" name="email"/>
@@ -21,5 +24,6 @@
             <h4><?echo "You're email: $email <br>";?></h4>
             <h4><?echo "You're password: $password <br>";?></h4>
         </form>
+        <hr>
     </body>
     </html>

@@ -1,7 +1,7 @@
-<? 
+<?php
     $email = isset($_GET["email"]) ? $_GET["email"] : "";
     $password = isset($_GET["password"]) ? $_GET["password"] : "";
-    ?>
+?>
 
     <!DOCTYPE html>
     <html lang="en">
@@ -11,6 +11,9 @@
         <title>Document</title>
     </head>
     <body>  
+        <p>=====</p>
+        <h3>GET</h3>
+        <p>=====</p>
         <h1>Remember that get method is not secure and the data you can pass is limted because it shows the data in address bar</h1>
     
         <form action="./Get.php" method="get">
@@ -21,5 +24,6 @@
             <h4><?echo "You're email: $email <br>";?></h4>
             <h4><?echo "You're password: $password <br>";?></h4>
         </form>
+        <hr>
     </body>
     </html>
