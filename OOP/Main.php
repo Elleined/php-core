@@ -23,4 +23,6 @@ echo $manualCar -> __toString();
 $manualCar -> drive();
 $manualCar -> goTo("Jupiter");
 $manualCar -> refuel();
+
+echo ""
 ?>
